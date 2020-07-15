@@ -154,8 +154,11 @@ a:hover
 {
     html
     {
-        font-size: 8px !important;
+        font-size: 14px !important;
     }
+	.hero .background-content .background-img{
+		background-size:contain !important;
+	}
 
 }
 
@@ -163,8 +166,11 @@ a:hover
 {
     html
     {
-        font-size: 6px !important;
+        font-size: 18px !important;
     }
+	.hero .background-content .background-img{
+		background-size:cover !important;
+	}
 
 }
 
@@ -172,8 +178,11 @@ a:hover
 {
     html
     {
-        font-size: 8px !important;
+        font-size: 14px !important;
     }
+	.hero .background-content .background-img{
+		background-size:contain !important;
+	}
 
 }
 
@@ -501,7 +510,7 @@ a:hover
     background: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position:center;
-    background-size:contain;
+    
 }
 
 
