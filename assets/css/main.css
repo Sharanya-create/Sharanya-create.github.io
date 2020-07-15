@@ -154,7 +154,7 @@ a:hover
 {
     html
     {
-        font-size: 10px !important;
+        font-size: 9px !important;
     }
 	.hero .background-content .background-img{
 		background-size:contain !important;
@@ -166,7 +166,7 @@ a:hover
 {
     html
     {
-        font-size: 14px !important;
+        font-size: 7px !important;
     }
 	.hero .background-content .background-img{
 		background-size:cover !important;
@@ -178,7 +178,7 @@ a:hover
 {
     html
     {
-        font-size: 12px !important;
+        font-size: 7px !important;
     }
 	.hero .background-content .background-img{
 		background-size:contain !important;
