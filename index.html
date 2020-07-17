@@ -84,6 +84,7 @@
                     <div class="animation-container animation-fade-left" data-animation-delay="200">
 
                         <p class="subline">Scroll Down To See My Projects</p>
+                        <p id="brief"></p>
 
                     </div>
                     <!-- /ANIMATION CONTAINER -->
@@ -208,6 +209,54 @@
         <!-- JAVASCRIPTS -->
         <script type="text/javascript" src="assets/js/plugins.js"></script>
         <script type="text/javascript" src="assets/js/main.js"></script>
+        <script>
+        
+        var i = 0;
+var speed = 50;
+var txt;
+for(var i=0;i<7;i++){
+	if(i==0){
+		txt="I am a Web Developer";
+        typeWriter();
+	}
+	else if(i==1){
+		txt="and";
+        typeWriter();
+	}
+	elseif(i==2){
+		txt="Full Stack Development enthusiast";
+        typeWriter();
+	}
+	else if(i==3){
+		txt="Cloud Computing enthusiast";
+        typeWriter();
+	}
+	else if(i==4){
+		
+		txt="Novel Writer";
+        typeWriter();
+	}
+	else if(i==5){
+		txt="Blogger";
+        typeWriter();
+	}
+	else{
+		txt="Technical Writer";
+        typeWriter();
+	}
+	
+}
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("brief").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+        
+        </script>
 
 
     </body>
